@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    padding: 0px;
+}
+
+body {
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+.container {
+    box-shadow: 0 10px 40px hsl(220, 15%, 55%);
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 600px;
+}
+
+.img {
+    flex: 1 0 50%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.head {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    overflow: hidden;
+}
+
+.desc {
+    padding: 35px;
+}
+
+.para {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin: 0px;
+
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.real {
+    color: hsl(158, 36%, 37%);
+    font-size: 1.7rem;
+    margin-right: 20px;
+    font-family: 'Fraunces', serif;
+
+}
+
+.cut {
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-style: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.svg {
+    margin-right: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
